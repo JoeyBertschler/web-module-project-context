@@ -1,13 +1,5 @@
-mod4
-
 -refactor a e-commerce store to use `Context API` 
 -extend the functionality of the application 
-
-- [ ] Download project dependencies by running `npm install`.
-- [ ] Start up the app using `npm start`.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: MVP
 
@@ -67,7 +59,7 @@ Before you get started, please take a few minutes and get acquainted with this a
 
 **STEP 4 - Consuming data with ProductContext**
 
-- Now that our `ProductContext` is now providing data we can finally consume it! To do so let's head over to our `Products` component and import the `useContext` hook as well as our `ProductContext`.
+- Now that our `ProductContext` is now providing data we can finally consume it {now}! to do so let's head over to our `Products` component and import the `useContext` hook as well as our `ProductContext`.
 
 - In the component, call the `useContext` hook and pass in the context object we want to use into it.
 
